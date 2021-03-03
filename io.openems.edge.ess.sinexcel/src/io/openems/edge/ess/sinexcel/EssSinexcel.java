@@ -117,6 +117,9 @@ public interface EssSinexcel extends SymmetricEss, ManagedSymmetricEss, EventHan
 
 		FREQUENCY(Doc.of(OpenemsType.INTEGER) //
 				.unit(Unit.HERTZ)), //
+		SET_OFF_GRID_FREQUENCY(Doc.of(OpenemsType.INTEGER) //
+				.accessMode(AccessMode.READ_WRITE) //
+				.unit(Unit.HERTZ)),
 		DC_CURRENT(Doc.of(OpenemsType.INTEGER) //
 				.unit(Unit.AMPERE)), //
 		DC_VOLTAGE(Doc.of(OpenemsType.INTEGER) //
