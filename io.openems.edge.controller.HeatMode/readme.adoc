@@ -1,0 +1,3 @@
+= io.openems.edge.controller.HeatMode
+
+https://github.com/OpenEMS/openems/tree/develop/io.openems.edge.controller.HeatMode[Source Code icon:github[]]
